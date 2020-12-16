@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-12-16T11:39:09.985Z" agent="5.0 (Macintosh; Intel Mac OS X 11_0_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="p0i2bNGZ19F5PhtJta9m" version="14.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-16T11:46:16.390Z" agent="5.0 (Macintosh; Intel Mac OS X 11_0_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="aAhr36HoJWCFF5VeJ0-Y" version="14.0.3" type="github">
   <diagram id="Rl4V-yFyULAMdKKbUMDl" name="Page-1">
-    <mxGraphModel dx="946" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="541" dy="351" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -61,6 +61,9 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="zda39viZkUBvIgCVlpMY-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1;" edge="1" parent="1" source="6beYRVkDOcadKEBixAy4-25" target="6beYRVkDOcadKEBixAy4-73">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="6beYRVkDOcadKEBixAy4-25" value="Входит в отделение банка" style="ellipse;fontFamily=Helvetica;fontSize=9;align=center;verticalAlign=middle;horizontal=1;spacing=2;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="210" y="407.5" width="70" height="45" as="geometry" />
         </mxCell>
@@ -76,26 +79,20 @@
         <mxCell id="6beYRVkDOcadKEBixAy4-33" value="Получает талон через СУО" style="ellipse;fontFamily=Helvetica;fontSize=9;align=center;verticalAlign=middle;horizontal=1;spacing=2;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="330" y="143.75" width="80" height="52.5" as="geometry" />
         </mxCell>
-        <mxCell id="6beYRVkDOcadKEBixAy4-34" value="" style="endArrow=classic;html=1;fontFamily=Helvetica;fontSize=16;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="6beYRVkDOcadKEBixAy4-33" target="6beYRVkDOcadKEBixAy4-35" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="420" y="170" as="sourcePoint" />
-            <mxPoint x="460" y="170" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="430" y="169.58" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="zda39viZkUBvIgCVlpMY-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;" edge="1" parent="1" source="6beYRVkDOcadKEBixAy4-35" target="6beYRVkDOcadKEBixAy4-50">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="6beYRVkDOcadKEBixAy4-35" value="Сканирует QR-код на плакате рядом с СУО" style="ellipse;fontFamily=Helvetica;fontSize=9;align=center;verticalAlign=middle;horizontal=1;spacing=2;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="470" y="135.94" width="90" height="68.12" as="geometry" />
+          <mxGeometry x="600" y="75.94" width="90" height="68.12" as="geometry" />
         </mxCell>
         <mxCell id="6beYRVkDOcadKEBixAy4-46" value="Приложение уже установлено?" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=9;align=center;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="620" y="135" width="110" height="70" as="geometry" />
+          <mxGeometry x="480" y="135" width="110" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="6beYRVkDOcadKEBixAy4-47" value="Нет" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;fontFamily=Helvetica;fontSize=9;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="6beYRVkDOcadKEBixAy4-46" target="6beYRVkDOcadKEBixAy4-50" edge="1">
+        <mxCell id="6beYRVkDOcadKEBixAy4-47" value="Нет" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;fontFamily=Helvetica;fontSize=9;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="6beYRVkDOcadKEBixAy4-46" edge="1">
           <mxGeometry x="0.1429" y="-20" relative="1" as="geometry">
-            <mxPoint x="720" y="110" as="targetPoint" />
+            <mxPoint x="600" y="110" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="675" y="110" />
+              <mxPoint x="535" y="110" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
@@ -106,14 +103,14 @@
             <mxPoint x="750" y="170" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6beYRVkDOcadKEBixAy4-49" value="" style="endArrow=classic;html=1;fontFamily=Helvetica;fontSize=9;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="6beYRVkDOcadKEBixAy4-35" target="6beYRVkDOcadKEBixAy4-46" edge="1">
+        <mxCell id="6beYRVkDOcadKEBixAy4-49" value="" style="endArrow=classic;html=1;fontFamily=Helvetica;fontSize=9;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="6beYRVkDOcadKEBixAy4-33" target="6beYRVkDOcadKEBixAy4-46" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="570" y="170" as="sourcePoint" />
             <mxPoint x="610" y="170" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="6beYRVkDOcadKEBixAy4-50" value="Устанавливает приложение" style="ellipse;fontFamily=Helvetica;fontSize=9;align=center;verticalAlign=middle;horizontal=1;spacing=2;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="730" y="87.81" width="80" height="44.37" as="geometry" />
+          <mxGeometry x="740" y="87.82000000000001" width="80" height="44.37" as="geometry" />
         </mxCell>
         <mxCell id="6beYRVkDOcadKEBixAy4-52" value="" style="endArrow=classic;html=1;strokeColor=#000000;fontFamily=Helvetica;fontSize=9;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="6beYRVkDOcadKEBixAy4-50" target="6beYRVkDOcadKEBixAy4-53" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -163,49 +160,36 @@
         <mxCell id="6beYRVkDOcadKEBixAy4-64" value="Следует построенному маршруту" style="ellipse;fontFamily=Helvetica;fontSize=9;align=center;verticalAlign=middle;horizontal=1;spacing=2;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1230" y="143.75" width="80" height="52.5" as="geometry" />
         </mxCell>
-        <mxCell id="6beYRVkDOcadKEBixAy4-65" value="" style="endArrow=classic;html=1;fontFamily=Helvetica;fontSize=16;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="6beYRVkDOcadKEBixAy4-25" target="6beYRVkDOcadKEBixAy4-66" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="290" y="429.58000000000004" as="sourcePoint" />
-            <mxPoint x="330" y="430" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="300" y="429.58000000000004" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="zda39viZkUBvIgCVlpMY-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1;" edge="1" parent="1" source="6beYRVkDOcadKEBixAy4-66" target="6beYRVkDOcadKEBixAy4-80">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="6beYRVkDOcadKEBixAy4-66" value="Сканирует QR-код на плакате" style="ellipse;fontFamily=Helvetica;fontSize=9;align=center;verticalAlign=middle;horizontal=1;spacing=2;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="340" y="395.94" width="90" height="68.12" as="geometry" />
+          <mxGeometry x="458" y="458.25" width="90" height="68.12" as="geometry" />
         </mxCell>
         <mxCell id="6beYRVkDOcadKEBixAy4-73" value="Приложение уже установлено?" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=9;align=center;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="490" y="394.06" width="110" height="70" as="geometry" />
+          <mxGeometry x="340" y="395" width="110" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="6beYRVkDOcadKEBixAy4-74" value="Нет" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;fontFamily=Helvetica;fontSize=9;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="6beYRVkDOcadKEBixAy4-73" target="6beYRVkDOcadKEBixAy4-80" edge="1">
+        <mxCell id="6beYRVkDOcadKEBixAy4-74" value="Нет" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;fontFamily=Helvetica;fontSize=9;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="6beYRVkDOcadKEBixAy4-73" target="6beYRVkDOcadKEBixAy4-66" edge="1">
           <mxGeometry x="-0.6061" y="5" relative="1" as="geometry">
-            <mxPoint x="600" y="490" as="targetPoint" />
+            <mxPoint x="450" y="490" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="545" y="492" />
-              <mxPoint x="600" y="492" />
+              <mxPoint x="395" y="492" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6beYRVkDOcadKEBixAy4-75" value="Да" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;fontFamily=Helvetica;fontSize=9;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="6beYRVkDOcadKEBixAy4-73" target="6beYRVkDOcadKEBixAy4-84" edge="1">
+        <mxCell id="6beYRVkDOcadKEBixAy4-75" value="Да" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;fontFamily=Helvetica;fontSize=9;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="6beYRVkDOcadKEBixAy4-73" target="6beYRVkDOcadKEBixAy4-84" edge="1">
           <mxGeometry x="-1" relative="1" as="geometry">
-            <mxPoint x="680" y="429" as="targetPoint" />
-            <mxPoint x="620" y="429.06" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="6beYRVkDOcadKEBixAy4-76" value="" style="endArrow=classic;html=1;fontFamily=Helvetica;fontSize=9;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="6beYRVkDOcadKEBixAy4-66" target="6beYRVkDOcadKEBixAy4-73" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="440" y="429.06" as="sourcePoint" />
-            <mxPoint x="480" y="429.06" as="targetPoint" />
+            <mxPoint x="535" y="429.05999999999995" as="targetPoint" />
+            <mxPoint x="470" y="429.06" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="6beYRVkDOcadKEBixAy4-80" value="Устанавливает приложение" style="ellipse;fontFamily=Helvetica;fontSize=9;align=center;verticalAlign=middle;horizontal=1;spacing=2;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="605" y="470" width="80" height="44.37" as="geometry" />
+          <mxGeometry x="590" y="470.13" width="80" height="44.37" as="geometry" />
         </mxCell>
-        <mxCell id="6beYRVkDOcadKEBixAy4-81" value="" style="endArrow=classic;html=1;strokeColor=#000000;fontFamily=Helvetica;fontSize=9;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="6beYRVkDOcadKEBixAy4-80" target="6beYRVkDOcadKEBixAy4-84" edge="1">
+        <mxCell id="6beYRVkDOcadKEBixAy4-81" value="" style="endArrow=classic;html=1;strokeColor=#000000;fontFamily=Helvetica;fontSize=9;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="6beYRVkDOcadKEBixAy4-80" target="6beYRVkDOcadKEBixAy4-84" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="695.0000000000002" y="492.19" as="sourcePoint" />
+            <mxPoint x="670" y="492" as="sourcePoint" />
             <mxPoint x="745" y="470" as="targetPoint" />
             <Array as="points">
               <mxPoint x="740" y="492" />
