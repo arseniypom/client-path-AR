@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-17T08:39:53.906Z" agent="5.0 (Macintosh; Intel Mac OS X 11_0_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="ijSrsHKykKdA3Pr9WPmc" version="14.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-17T08:41:10.301Z" agent="5.0 (Macintosh; Intel Mac OS X 11_0_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="h19odtA81kT_3X36-Dv0" version="14.0.3" type="github">
   <diagram id="Rl4V-yFyULAMdKKbUMDl" name="Page-1">
     <mxGraphModel dx="1034" dy="491" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -617,22 +617,23 @@
         <mxCell id="zda39viZkUBvIgCVlpMY-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1;" edge="1" parent="1" source="zda39viZkUBvIgCVlpMY-31" target="6beYRVkDOcadKEBixAy4-84">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="zda39viZkUBvIgCVlpMY-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1;" edge="1" parent="1" source="zda39viZkUBvIgCVlpMY-31" target="zda39viZkUBvIgCVlpMY-34">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="zda39viZkUBvIgCVlpMY-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="zda39viZkUBvIgCVlpMY-31" target="6beYRVkDOcadKEBixAy4-91">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="780" y="544" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="780" y="530" />
+              <mxPoint x="1235" y="530" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="zda39viZkUBvIgCVlpMY-31" value="&lt;font style=&quot;font-size: 9px&quot;&gt;Клиент выбирает, что ему нужно: персональный менеджер / касса / сейф&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="720" y="384" width="120" height="80" as="geometry" />
+          <mxGeometry x="710" y="384" width="130" height="80" as="geometry" />
         </mxCell>
         <mxCell id="zda39viZkUBvIgCVlpMY-33" value="&lt;font style=&quot;font-size: 9px&quot;&gt;Если выбрал менеджера&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="838" y="384" width="70" height="34.06" as="geometry" />
         </mxCell>
-        <mxCell id="zda39viZkUBvIgCVlpMY-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="zda39viZkUBvIgCVlpMY-34" target="6beYRVkDOcadKEBixAy4-91">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="995" y="535" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="zda39viZkUBvIgCVlpMY-34" value="&lt;font style=&quot;font-size: 9px&quot;&gt;Выбрал НЕ менеджера&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="795" y="510" width="120" height="50" as="geometry" />
+        <mxCell id="zda39viZkUBvIgCVlpMY-40" value="&lt;font style=&quot;font-size: 9px&quot;&gt;Если выбрал НЕ менеджера&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="820" y="500" width="160" height="25.43" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
